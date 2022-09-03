@@ -94,7 +94,7 @@ const ProjectImage: FunctionalComponent<ProjectImageProps> = ({ data }) => {
     <div key={data.filename} className="aspect-square rounded-xl shadow-custom">
       <img
         className="rounded-xl"
-        src={`/${data.filename}`}
+        src={`/images/${data.filename}`}
         alt={data.alt}
         height={384}
         width={384}
