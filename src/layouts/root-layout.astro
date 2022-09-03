@@ -1,0 +1,21 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Nav from "@/components/Nav"
+import Footer from "@/components/Footer"
+
+import "@fontsource/poppins"
+import "@fontsource/syne"
+
+const { title, description, lang = "en" } = Astro.props;
+---
+
+<html lang={lang} class="scroll-smooth">
+	<head>
+		<MainHead title={title} description={description} />
+	</head>
+	<body>
+		<Nav />
+			<slot />
+		<Footer />
+	</body>
+</html>

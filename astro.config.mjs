@@ -1,10 +1,10 @@
-import { defineConfig } from 'astro/config';
-import preact from '@astrojs/preact';
-
-import react from "@astrojs/react";
+import { defineConfig } from "astro/config";
+import preact from "@astrojs/preact";
 import tailwind from "@astrojs/tailwind";
+
+import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [preact(), react(), tailwind()]
+  integrations: [preact(), tailwind(), image()]
 });
