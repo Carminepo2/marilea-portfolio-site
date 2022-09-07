@@ -9,11 +9,21 @@ const PROJECTS: Record<
   "web-design": [
     { filename: "events-site.webp", alt: "landing page sito di eventi" },
     { filename: "shopisea.webp", alt: "landing page servizi nft e metaverso" },
-    { filename: "sito-carmine.webp", alt: "landing page portfolio programmatore" },
+    {
+      filename: "sito-carmine.webp",
+      alt: "landing page portfolio programmatore",
+    },
   ],
   "app-design": [
     { filename: "plant-app.webp", alt: "interfaccia app negozio piante" },
+<<<<<<< HEAD
     { filename: "big-hack.webp", alt: "interfaccia app finalisti hackaton 2022" },
+=======
+    {
+      filename: "big-hack.webp",
+      alt: "interfaccia app finalisti hackaton 2022",
+    },
+>>>>>>> ddf5cbe8e999ea4d3fcaea76b388769f255e916f
   ],
   "graphic-design": [
     { filename: "logo-carmine.webp", alt: "logo programmatore" },
@@ -22,7 +32,10 @@ const PROJECTS: Record<
   "social-design": [
     { filename: "beauty.webp", alt: "post social media compagnia bellezza" },
     { filename: "ig-work.webp", alt: "post social media abbigliamento" },
-    { filename: "instagram-post.webp", alt: "post social media negozio articoli da regalo" },
+    {
+      filename: "instagram-post.webp",
+      alt: "post social media negozio articoli da regalo",
+    },
   ],
   // ----------------------------------------
 }
