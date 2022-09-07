@@ -16,14 +16,10 @@ const PROJECTS: Record<
   ],
   "app-design": [
     { filename: "plant-app.webp", alt: "interfaccia app negozio piante" },
-<<<<<<< HEAD
-    { filename: "big-hack.webp", alt: "interfaccia app finalisti hackaton 2022" },
-=======
     {
       filename: "big-hack.webp",
       alt: "interfaccia app finalisti hackaton 2022",
     },
->>>>>>> ddf5cbe8e999ea4d3fcaea76b388769f255e916f
   ],
   "graphic-design": [
     { filename: "logo-carmine.webp", alt: "logo programmatore" },
