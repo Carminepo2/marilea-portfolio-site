@@ -12,7 +12,7 @@ const PROJECTS: Record<
     { filename: "sito-carmine.webp", alt: "landing page portfolio programmatore" },
   ],
   "app-design": [
-    { filename: "fresh-fleur.webp", alt: "interfaccia app negozio piante" },
+    { filename: "plant-app.webp", alt: "interfaccia app negozio piante" },
     { filename: "big-hack.webp", alt: "interfaccia app finalisti hackaton 2022" },
   ],
   "graphic-design": [
