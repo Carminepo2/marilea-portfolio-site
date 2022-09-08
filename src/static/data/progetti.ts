@@ -13,6 +13,7 @@ const PROJECTS: Record<
       filename: "sito-carmine.webp",
       alt: "landing page portfolio programmatore",
     },
+    { filename: "construction-landing.webp", alt: "landing page azienda costruzioni e trasporti" },
   ],
   "app-design": [
     { filename: "plant-app.webp", alt: "interfaccia app negozio piante" },
