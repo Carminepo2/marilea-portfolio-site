@@ -4,7 +4,7 @@ import clsx from "clsx"
 import { useState } from "preact/hooks"
 import Container from "../Container"
 import PROJECTS from "@/static/data/progetti"
-import { ExternalLinkIcon } from "@/components/icons"
+import { ArrowRightIcon, ExternalLinkIcon } from "@/components/icons"
 
 const tabs: Array<ProjectType> = [
   "web-design",
@@ -80,6 +80,9 @@ const ProjectSection: FunctionalComponent = () => {
         {PROJECTS[selected].map((projectImage) => (
           <ProjectImage key={projectImage.filename} data={projectImage} />
         ))}
+      </div>
+      <div className="relative bottom-6 -mb-8 flex items-end justify-end px-4 md:hidden">
+        <ArrowRightIcon className="h-8 w-8 text-secondary" />
       </div>
     </>
   )
