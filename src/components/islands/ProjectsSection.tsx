@@ -1,23 +1,23 @@
 import type { FunctionalComponent } from "preact"
 import type { ProjectType } from "@/types"
 import clsx from "clsx"
-import Image from "@astrojs/image"
 import { useState } from "preact/hooks"
 import Container from "../Container"
 import PROJECTS from "@/static/data/progetti"
+import { ExternalLinkIcon } from "@/components/icons"
 
 const tabs: Array<ProjectType> = [
   "web-design",
-  "app-design",
+  "case-studies",
   "graphic-design",
-  "social-design",
+  // "social-design",
 ]
 
 const tabNames: Record<ProjectType, string> = {
   "web-design": "Web Design",
-  "app-design": "App Design",
+  "case-studies": "Case Studies",
   "graphic-design": "Graphic Design",
-  "social-design": "Social Design",
+  // "social-design": "Social Design",
 }
 
 const ProjectSection: FunctionalComponent = () => {
@@ -75,12 +75,12 @@ const ProjectSection: FunctionalComponent = () => {
             ))}
           </nav>
         </div>
-        <div className="mt-4 grid grid-cols-2 gap-6 py-8 sm:mt-6 md:grid-cols-3 lg:grid-cols-4">
-          {PROJECTS[selected].map((projectImage) => (
-            <ProjectImage key={projectImage.filename} data={projectImage} />
-          ))}
-        </div>
       </Container>
+      <div className="-mx-4 mt-4 overflow-auto whitespace-nowrap py-8 px-4 scrollbar-hide sm:mt-6 md:px-20">
+        {PROJECTS[selected].map((projectImage) => (
+          <ProjectImage key={projectImage.filename} data={projectImage} />
+        ))}
+      </div>
     </>
   )
 }
@@ -91,15 +91,24 @@ interface ProjectImageProps {
 
 const ProjectImage: FunctionalComponent<ProjectImageProps> = ({ data }) => {
   return (
-    <div key={data.filename} className="aspect-square rounded-xl shadow-custom">
+    <a
+      target="_blank"
+      className="relative mx-4 inline-block overflow-hidden rounded-xl shadow-custom"
+      href={data.link}
+    >
+      {!!data.link && (
+        <div className="group absolute inset-0 flex items-center justify-center rounded-xl transition-all hover:bg-primary/80 hover:backdrop-blur-sm">
+          <ExternalLinkIcon className="h-12 w-12 text-white opacity-0 transition-opacity group-hover:opacity-100" />
+        </div>
+      )}
       <img
         className="rounded-xl"
         src={`/images/${data.filename}`}
         alt={data.alt}
-        height={384}
-        width={384}
+        height={808}
+        width={632}
       />
-    </div>
+    </a>
   )
 }
 

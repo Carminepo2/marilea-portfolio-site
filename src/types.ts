@@ -1,5 +1,2 @@
-export type ProjectType =
-  | "web-design"
-  | "app-design"
-  | "graphic-design"
-  | "social-design"
+export type ProjectType = "web-design" | "case-studies" | "graphic-design"
+// | "social-design"
