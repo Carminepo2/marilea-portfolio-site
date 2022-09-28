@@ -8,6 +8,11 @@ const PROJECTS: Record<
   // ----------------------------------------
   "web-design": [
     {
+      filename: "pomi-corp.webp",
+      alt: "landing page designer e developer agenzia",
+      link: "https://www.behance.net/gallery/153682137/Designer-and-Developer-Landing-Page",
+    },
+    {
       filename: "shopisea.webp",
       alt: "landing page servizi nft e metaverso",
       link: "https://www.behance.net/gallery/153543541/Landing-page-metaverse-services",
