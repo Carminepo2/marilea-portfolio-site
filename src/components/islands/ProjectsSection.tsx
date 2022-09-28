@@ -108,8 +108,8 @@ const ProjectImage: FunctionalComponent<ProjectImageProps> = ({ data }) => {
         className="rounded-xl"
         src={`/images/${data.filename}`}
         alt={data.alt}
-        height={632}
-        width={808}
+        height={410.8}
+        width={525.2}
       />
     </a>
   )
