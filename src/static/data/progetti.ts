@@ -66,6 +66,11 @@ const PROJECTS: Record<
       alt: "logo per giornalista freelance",
       link: "https://www.behance.net/gallery/153753645/Logo-Journalist",
     },
+    {
+      filename: "logo-davide.png",
+      alt: "logo iniziali D & S con tentacolo",
+      link: "https://www.behance.net/gallery/153802631/Logo-DS-Letters",
+    },
   ],
   // "social-design": [
   //   { filename: "beauty.webp", alt: "post social media compagnia bellezza" },
