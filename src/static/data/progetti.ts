@@ -58,8 +58,13 @@ const PROJECTS: Record<
     },
     {
       filename: "holy-cannolo.png",
-      alt: "logo for designer and developer",
+      alt: "logo per designer e developer",
       link: "https://www.behance.net/gallery/153609953/Logo-Sicilian-Design-and-Developer",
+    },
+    {
+      filename: "logo-roberto.webp",
+      alt: "logo per giornalista freelance",
+      link: "https://www.behance.net/gallery/153753645/Logo-Journalist",
     },
   ],
   // "social-design": [
