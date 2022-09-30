@@ -13,6 +13,11 @@ const PROJECTS: Record<
       link: "https://www.behance.net/gallery/153682137/Designer-and-Developer-Landing-Page",
     },
     {
+      filename: "SITO-ROBINTYL.png",
+      alt: "landing page portfolio artista e illustratrice",
+      link: "https://www.behance.net/gallery/153839039/Landing-Page-Portfolio-Illustrator-Artist",
+    },
+    {
       filename: "shopisea.webp",
       alt: "landing page servizi nft e metaverso",
       link: "https://www.behance.net/gallery/153543541/Landing-page-metaverse-services",
