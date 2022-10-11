@@ -76,6 +76,11 @@ const PROJECTS: Record<
       alt: "logo iniziali D & S con tentacolo",
       link: "https://www.behance.net/gallery/153802631/Logo-DS-Letters",
     },
+    {
+      filename: "logo-lashamker.png",
+      alt: "logo extension ciglia naomi lashmaker",
+      link: "https://www.behance.net/gallery/154326649/Logo-lashmaker",
+    },
   ],
   // "social-design": [
   //   { filename: "beauty.webp", alt: "post social media compagnia bellezza" },
